@@ -44,7 +44,7 @@ chkconfig --add transmissiond
 chkconfig --level 2345 transmissiond on
 mkdir -p /home/transmission/Downloads/
 chmod g+w /home/transmission/Downloads/
-wget -c http://github.itzmx.com/1265578519/transmission/master/2.84/settings.json
+wget -c https://raw.githubusercontent.com/zyhibook/shell/master/transmission/settings.json
 mkdir -p /home/transmission/.config/transmission/
 mv -f settings.json /home/transmission/.config/transmission/settings.json
 chown -R transmission.transmission /home/transmission
