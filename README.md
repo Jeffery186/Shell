@@ -8,7 +8,7 @@ transmission安装
  浏览器访问 
      http://ip:9091，默认账号密码都是 itzmx.com 
  # 其他命令
- 更新
+  更新
      yum update
- 安装wget
+  安装wget
      yum -y install wget
