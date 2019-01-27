@@ -1,0 +1,1 @@
+rclone copy -P /home/transmission/Downloads Gdrive:rclone
